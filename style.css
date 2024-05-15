@@ -1,0 +1,141 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   height: 100vh;
+   padding-top:80px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 10px;
+   background-color: #F0F2F5;;
+}
+.mein-contanir{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 60vh;
+}
+.contanir{
+   margin-right: 20px;
+}
+.contanir img{
+   width: 340px;
+   height: 100px;
+   margin-right: 30px;
+   padding-right: 50px;
+   margin-top: 50px;
+   margin-bottom: 0px;
+}
+.contanir h2{
+   margin-left: 40px;
+   padding-bottom: 40px;
+   margin-bottom: 40px;
+   font-family: sans-serif;
+   font-size: 20px;
+   color: #444;
+}
+.mein-box{
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   border-radius: 5px;
+   margin-top: 70px;
+   background-color: #fff;
+   /* padding: 10px; */
+   width: 350px;
+   height: 330px;
+   /* margin-right: 10px; */
+   justify-content: center;
+}
+.box{
+   padding: 10px;
+}
+.box input{
+   outline-color: blue;
+   margin: 10px;
+   padding: 15px;
+   width: 280px;
+   border: 1px solid #999;
+   border-radius: 5px;
+   color: #444;
+}
+.box input::placeholder{
+   font-size: 18px;
+   color: #999;
+}
+hr{
+   width: 310px;
+   margin-left: 30px;
+   background-color: #999;
+   color: #999;
+}
+.button1 button{
+   border-radius: 5px;
+   width: 290px;
+   font-size: 16px;
+   padding: 15px;
+   margin-left: 30px;
+   background-color:#0866ff ;
+   border: none;
+   color: #fff;
+}
+.link-1{
+   margin: 15px;
+   padding-top: 10px;
+   text-align: center;
+}
+.link-1 a{
+   text-decoration: none;
+   padding: 10px;
+   color: #2C83F2;
+   font-size: 16px;
+}
+.button2{
+   justify-content: center;
+   margin: 15px;
+   /* padding-top: 0px; */
+}
+.button2 button{
+   width: 200px;
+   padding: 12px;
+   border-radius: 5px;
+   border: none;
+   margin-left: 60px;
+   background-color: #36A420;
+   color: #fff;
+}
+.onep span:hover{
+   color: blue;
+}
+.onep{
+   margin-top: 30px;
+   /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+}
+@media only screen and (max-width: 900px){
+   .mein-box{
+      margin-left: 30px;
+   }
+   .button1 button{
+      margin-left: 5px;
+   }
+   .button2 button{
+      margin-left: 20px;
+   }
+   .contanir img{
+      padding-top: 50px;
+      padding-left: 50px ;
+      margin-right: 40px;
+   }
+   body{
+      margin: 10px;
+      text-align: center;
+   }
+   .mein-contanir{
+      flex-direction: column;
+      justify-content: center;
+   }
+}
+
+@media only screen and (max-width: 450px){
+.mein-contanir{
+   flex-direction: column;
+}
+}
